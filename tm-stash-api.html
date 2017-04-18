@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`tm-stash-api`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="tm-stash-api">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'tm-stash-api',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'tm-stash-api',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
